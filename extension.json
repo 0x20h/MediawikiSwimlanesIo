@@ -1,0 +1,18 @@
+{
+	"name": "MediawikiSwimlanesIo",
+	"version": "0.0.1",
+	"author": ["Jan Kohlhof"],
+	"url": "https://github.com/0x20h/MediaWikiSwimlanesIo/",
+	"descriptionmsg": "Integrate swimlanes.io in mediawiki files",
+	"type": "parserhook",
+	"HookHandlers": {
+		"main": {
+			"class": "\\SwimlanesIo\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "main",
+		"ParserAfterTidy": "main"
+	},
+	"manifest_version": 2
+}

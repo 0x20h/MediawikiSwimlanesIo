@@ -1,0 +1,20 @@
+{
+    "name": "0x20h/mediawiki-swimlanes-io",
+    "description": "Mediawiki extension to embed swimlanes.io sequence diagrams in your wiki pages.",
+    "type": "mediawiki-extension",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jan Kohlhof",
+            "email": "jan.kohlhof@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SwimlanesIo\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0.0"
+    }
+}
